@@ -78,7 +78,6 @@
 ##
 root ALL=(ALL) ALL
 
-
 ## Same thing without a password
 # %wheel ALL=(ALL) NOPASSWD: ALL
 
