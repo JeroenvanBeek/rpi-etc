@@ -44,3 +44,4 @@ uuidd:!!::
 dhcpcd:!!::
 alarm:!::
 chrony:!!::
+git:!!::

@@ -45,3 +45,4 @@ dhcpcd:x:977:
 alarm:x:1000:
 chrony:x:976:
 git:x:975:
+locate:x:21:
