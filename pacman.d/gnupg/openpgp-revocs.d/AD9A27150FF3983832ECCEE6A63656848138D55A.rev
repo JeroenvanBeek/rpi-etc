@@ -1,0 +1,37 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub   rsa4096 2020-10-13 [S]
+      AD9A27150FF3983832ECCEE6A63656848138D55A
+uid          Pacman Keyring Master Key <pacman@localhost>
+
+A revocation certificate is a kind of "kill switch" to publicly
+declare that a key shall not anymore be used.  It is not possible
+to retract such a revocation certificate once it has been published.
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.  For details see the description of
+of the gpg command "--generate-revocation" in the GnuPG manual.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before importing and publishing this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: This is a revocation certificate
+
+iQI2BCABCAAgFiEErZonFQ/zmDgy7M7mpjZWhIE41VoFAl+FjnsCHQAACgkQpjZW
+hIE41VoGcw//WuVqDtHp3uUSA690xQCX5kgW07Ek+AxoZ9bpURVUTp7BkyIRFOIX
+ndeKG90j18nIxwpj5UgaItCscXsSUCCd9eT/P7pHDFjRJ9LysnvhtiMips+i3p+m
+CBsgfujjIfnlnX5orsaH/vnhQOgcs1FQyjW2zPltBp6a9tdEZDGDoaVz8zs8OnZC
+pxwf97OwvIkK400QOUKKW2k2R9M6aF3rzBb7OhdLMTWNYOCHs54zFIuQS8RBgYhf
+oE+zbdQSvACgTjeK3zy+IJ0t9e/EkycOk/wM64h9TMC74IeD0FGJ/sAYI8PtrZMq
+F6v+vydDcMAJ7I72qp66KElL7VdJjCGpe2oKX2qSTqJFDoVphoCDTbp20soD5cY9
+l9a+wgRwnZ8bojOWKcXGNvrCxRp4+z+bB1DnR6q2P6UkxxMcIUnfHCQawRD+lR4o
+zyMTQzTihvvoF/D7riALShq94DE6wiy1Ovh6xOTzvlhK9Gwc9p4cmARQUbzz3Mzi
+mN6D6k9rbn4KrtwR7PO/xxW8uewnP1Nf4He7KIoolWeXzfnnlZ6YSchFcvxLgfPM
+bKMFjvXI/nb4A9NMOALtQEIkt2clsXtygFZXaSOICv7N3kAIrFcXluB+aNTrsJaH
+La3LWke0f8ngBgEcMmpjyrKtoVa/8+wnv0sGUdsYzrzIXiCT0LyFLY0=
+=8BxT
+-----END PGP PUBLIC KEY BLOCK-----
